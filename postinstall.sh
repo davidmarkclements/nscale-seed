@@ -1,7 +1,6 @@
-rm postinstall.sh
 mv seed-package.json package.json
 
-if [ -d ../../node_modules ]
+if [ -d ../../node_modules/nscale-seed ]
 then cd ../.. && mv node_modules/nscale-seed .
 fi
 
