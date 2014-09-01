@@ -1,6 +1,6 @@
 {
   "name": "nscale-seed",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "nscale-seed ===========",
   "main": "index.js",
   "scripts": {
