@@ -8,6 +8,6 @@ if [ -d ../../node_modules/nscale-seed ]
 then cd ../.. && mv node_modules/nscale-seed .
 fi
 
-if [ -d node_modules && ! "$(ls -A node_modules)" ]
+if [ ! "$(if [ -d node_modules ]; then ls -A node_modules; fi)" ]
 then rm -fr node_modules
 fi
