@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "[ -d ../../node_modules ] && cd ../.. && mv node_modules/nscale-seed . && [ ! -d node_modules/* ] && rm -fr node_modules"
+    "postinstall": "[ -d ../../node_modules ] && cd ../.. && mv node_modules/nscale-seed . && if [ ! -d node_modules/* ]; then rm -fr node_modules; fi"
   },
   "repository": {
     "type": "git",
