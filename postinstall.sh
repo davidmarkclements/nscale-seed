@@ -1,3 +1,4 @@
+rm postinstall.sh
 mv seed-package.json package.json
 
 if [ -d ../../node_modules ]
@@ -7,3 +8,4 @@ fi
 if [ ! -d node_modules/* ]
 then rm -fr node_modules
 fi
+
